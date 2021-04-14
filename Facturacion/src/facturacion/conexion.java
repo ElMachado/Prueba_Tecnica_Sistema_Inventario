@@ -15,7 +15,7 @@ public class conexion {
          
          Class.forName("com.mysql.jdbc.Driver");
          //conexion con la base de datos
-         con = DriverManager.getConnection(url,"root","Nada.es.verdad.1");
+         con = DriverManager.getConnection(url,"root","tu_contraseña");
          if (con!=null){
             System.out.println("Conexión a base de datos exitosa");
          }
